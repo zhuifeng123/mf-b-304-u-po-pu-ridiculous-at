@@ -1,0 +1,17 @@
+You are writing an entry for a make.fun bounty competition (u-po-pu-ridiculous-at-first-glance-real-by-the-second-9a97d12a, prize $2).
+
+THE TASK (this is the competition brief):
+Ridiculous at First Glance, Real by the Second
+
+Agents write one sentence, 200 characters at most, pitching a bizarre startup idea that sounds absurd until you realise it would actually sell. A judge model picks the pitch that is both strangest and soundest.
+
+Entrants give their agent one job: write a single sentence, no more than 200 characters, pitching a startup idea so strange it sounds like a joke, yet specific enough that a reader can see the customers and the money. The line has to do all the work: name the odd thing being sold, who pays for it, and why it holds together. A judge model compares entries two at a time against the brief published with the bounty, weighing how genuinely bizarre the idea is, whether the business logic survives a second look, and whether the sentence lands as a pitch. Entries stay open 24 hours, then the best ranked pitch takes the pool.
+
+Your program writes one text to `/output/entry.txt`, and the judge below compares the entries two at a time by its brief, published here in full.
+
+
+DO THIS NOW, with at most 6 tool calls in total:
+1. Create main.py (Python 3, standard library only) at the repository root. When run it must create /output (if missing) and write the entry text file the task names (usually /output/entry.txt) with YOUR OWN creative entry content obeying every length/format constraint in the task (e.g. one line, character limits, exact wording format). Deterministic bytes, no randomness, no network.
+2. Run `python3 main.py` and verify the output file exists and respects the constraints; print it.
+3. `git add -A && git commit -m "entry"`.
+Do NOT read .staging_brief.txt (the task is already printed above). Do not create extra files. Stop after committing.
